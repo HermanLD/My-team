@@ -144,20 +144,18 @@ body {
     margin-top: 109px;
   }
 
+  .about-us,
   .header {
     --to-zero: 0px;
   }
 
   .team {
+    column-gap: 79px;
     grid-column: span 2;
+    align-self: center;
   }
 
   .footer {
     grid-column: 1 / -1;
   }
-
-  .about-us {
-    --to-zero: 0px;
-  }
 }
-
